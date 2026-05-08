@@ -4,22 +4,23 @@ import { ArrowUpRight } from "lucide-react"
 const caseStudies = [
   {
     slug: "itau-superapp-payments",
-    title: "Itaú SuperApp Payments",
-    description: "Led requirements for a unified payments experience serving 50M+ users across Brazil&apos;s largest banking ecosystem.",
+    title: "Itau Unibanco - SuperApp: Unified Payments and Deposits | Digital Banking",
+    description: "Led requirements for a unified payments experience serving 50M+ users across Brazil&apos;s largest banking ecosystem. Defined functional specifications and API requirements for Pix Credit -  instant payment platform. Led UAT coordination across 6 product squads during the migration of 8 million customers to Itau unified SuperApp. Outcome : Contributed to a programme delivering 45+ digital banking products in a single year, driving 14% growth in card purchase volume. Orchestrated go-live across 8 markets over 3 years and the transformation delivered approximately $42M in annual operational savings",
     tags: ["Payments", "Mobile", "Agile"],
-    year: "2023",
+    year: "2021 - 2024",
   },
   {
     slug: "siemens-energy-cloud",
-    title: "Siemens Energy Cloud Migration",
-    description: "Orchestrated stakeholder alignment for enterprise cloud transformation across 40+ business units globally.",
+    title: "Siemens Energy - On Premm to AWS Cloud Migration | SDLC Toolchain",
+    description: "Orchestrated stakeholder alignment for enterprise cloud transformation across 40+ business units globally. Consolidation into a single instance infrastructure from On-Prem to AWS Cloud (GitLab, SonarQube, Artifactory. Migration outcomes include enhanced scalability, cost-effectiveness, and a unified team managing infrastructure concerns. Net savings of €141K result of unification and resource efforts",
     tags: ["Cloud", "Enterprise", "Stakeholder Mgmt"],
-    year: "2022",
+    year: "2025 - 2026",
   },
   {
-    slug: "optus-crm-migration",
-    title: "Optus CRM Migration",
-    description: "Defined business requirements for CRM consolidation impacting 10M+ customer records and 2,000 agents.",
+    slug: "Billing Platform Upgrade",
+    title: "Energy Australia - Meter Data Management System 2.0 | Utility",
+    description: "•	Supported billing platform and meter data management uplift by improving the flow of validated meter data.Strengthened meter data quality and exception handling by defining validation checkpoints for missing, late, duplicate and inconsistent reads. •	Improved billing reliability and operational control by reducing manual exception handling to ~30%"
+ ",
     tags: ["CRM", "Telco", "Process Design"],
     year: "2021",
   },
