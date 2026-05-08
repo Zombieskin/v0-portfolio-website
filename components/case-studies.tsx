@@ -35,8 +35,7 @@ const caseStudies = [
     {
     slug: "Billing Platform Upgrade",
     title: "Energy Australia - CIS Plus to C1 Billing Platform Upgrade | Utility",
-    description: "•	Worked with technology as subject matter expert, billing operations and compliance stakeholders to identify delayed bill scenarios, customer record issues, smart meter billing information gaps and downstream impacts during platform stabilization.Successful upgrade and stabilization, minimal disruption during migration, business noticed reduction in 90+ and 270+ days overdue billing by ~54% ",
- ",
+    description: "Worked with technology as subject matter expert, billing operations and compliance stakeholders to identify delayed bill scenarios, customer record issues, smart meter billing information gaps and downstream impacts during platform stabilization. Successful upgrade and stabilization with minimal disruption during migration, achieving a reduction in 90+ and 270+ days overdue billing by ~54%.",
     tags: ["Platform Upgrade", "Utility", "Enhancement"],
     year: "2010 - 2014",
   }
