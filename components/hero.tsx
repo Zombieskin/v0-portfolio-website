@@ -21,7 +21,7 @@ export function Hero() {
         </nav>
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-foreground mb-4">
-          Alex Morrison
+          Sumeet Haldankar
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-6">
           Senior Business Analyst & Product Owner

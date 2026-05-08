@@ -34,7 +34,7 @@ export function Contact() {
             <Mail className="w-5 h-5 text-foreground" />
             <div className="flex-1">
               <p className="text-sm font-medium text-foreground">Email</p>
-              <p className="text-xs text-muted-foreground">alex@example.com</p>
+              <p className="text-xs text-muted-foreground">sumeet.haldankar1989@gmail.com</p>
             </div>
             <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors" />
           </Link>
