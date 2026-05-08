@@ -94,7 +94,12 @@ export function Hero() {
             Senior Business Analyst & Product Owner
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed text-center md:text-left mb-8">
-            Translating complex business needs into actionable product strategy across payments, cloud infrastructure, and enterprise transformation.
+            Product Owner and Senior Business Analyst with 15 years of technology delivery experience across Utility, Energy, Banking, Payments, Telecommunications and Cloud Transformation. Experienced in facilitating Agile ceremonies, coordinating delivery across cross functional teams.
+
+            I work closely with senior and executive stakeholders to understand what the business really needs, then turn that into clear functional and non-functional requirements, BPMN process maps, and solutions that hold up across the full SDLC.
+            
+            I bring strong experience in SAFe delivery, PI Planning, backlog governance, stakeholder engagement, cloud migration, DevOps toolchain modernization, cybersecurity controls and regulated technology environments. Known for connecting business priorities with technical execution and helping teams move from ambiguity to clear, practical outcomes.
+.
           </p>
 
           <div className="flex items-center justify-center md:justify-start gap-4 mb-10">
