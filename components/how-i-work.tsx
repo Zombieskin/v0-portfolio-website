@@ -11,7 +11,7 @@ const approaches = [
     icon: Zap,
     title: "Delivery",
     description:
-      "I champion iterative delivery, breaking complex initiatives into measurable increments. Using Agile ceremonies, backlog refinement, and clear acceptance criteria, I ensure development teams have everything they need to build with confidence and velocity.",
+      "I focus on iterative delivery, breaking complex initiatives into measurable increments. Using Agile ceremonies, backlog refinement, and clear acceptance criteria, I ensure development teams have everything they need to build with confidence and velocity.",
   },
   {
     icon: Users,
