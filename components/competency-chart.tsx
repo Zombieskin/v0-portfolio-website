@@ -33,17 +33,17 @@ export function CompetencyChart() {
           <div className="h-[400px] w-full">
             <ResponsiveContainer width="100%" height="100%">
               <RadarChart data={competencies} cx="50%" cy="50%" outerRadius="70%">
-                <PolarGrid stroke="oklch(0.28 0.02 250)" strokeWidth={1} />
+                <PolarGrid stroke="#D8D4CE" strokeWidth={1} />
                 <PolarAngleAxis
                   dataKey="skill"
-                  tick={{ fill: "oklch(0.65 0.01 90)", fontSize: 11 }}
+                  tick={{ fill: "#5a5a5a", fontSize: 11 }}
                   tickLine={false}
                 />
                 <Radar
                   dataKey="value"
-                  stroke="oklch(0.55 0.12 200)"
-                  fill="oklch(0.55 0.12 200)"
-                  fillOpacity={0.3}
+                  stroke="#8B7355"
+                  fill="#8B7355"
+                  fillOpacity={0.25}
                   strokeWidth={2}
                 />
               </RadarChart>
