@@ -71,6 +71,30 @@ export function Hero() {
         </Link>
       </nav>
 
+      {/* Marquee Ticker */}
+      <div className="overflow-hidden mb-8">
+        <div className="animate-marquee whitespace-nowrap">
+          <span className="inline-block text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+            Currently targeting Senior BA and Product Owner roles in Melbourne
+            <span className="mx-4">·</span>
+            Open to digital banking, fintech, and regulated financial services
+            <span className="mx-4">·</span>
+            Active in the Melbourne tech community
+            <span className="mx-4">·</span>
+            Available for contract and permanent roles
+            <span className="mx-4">·</span>
+            Currently targeting Senior BA and Product Owner roles in Melbourne
+            <span className="mx-4">·</span>
+            Open to digital banking, fintech, and regulated financial services
+            <span className="mx-4">·</span>
+            Active in the Melbourne tech community
+            <span className="mx-4">·</span>
+            Available for contract and permanent roles
+            <span className="mx-4">·</span>
+          </span>
+        </div>
+      </div>
+
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-12">
         {/* Mobile: Centered square photo */}
         <div className="flex justify-center md:hidden">
