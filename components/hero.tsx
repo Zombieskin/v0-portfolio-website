@@ -74,12 +74,12 @@ export function Hero() {
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-12">
         {/* Mobile: Centered square photo */}
         <div className="flex justify-center md:hidden">
-          <div className="relative w-48 h-55 overflow-hidden rounded-lg border-2 border-border">
+          <div className="relative w-48 h-60 overflow-hidden rounded-lg border-2 border-border bg-secondary">
             <Image
               src="/Resume Picture Enhanced.png"
               alt="Sumeet Haldankar"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               priority
             />
           </div>
@@ -132,12 +132,12 @@ export function Hero() {
 
         {/* Desktop: Square photo on the right */}
         <div className="hidden md:flex md:items-start md:justify-end">
-          <div className="relative w-56 h-56 lg:w-64 lg:h-64 overflow-hidden rounded-lg border-2 border-border">
+          <div className="relative w-56 h-72 lg:w-64 lg:h-80 overflow-hidden rounded-lg border-2 border-border bg-secondary">
             <Image
               src="/Resume Picture Enhanced.png"
               alt="Sumeet Haldankar"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               priority
             />
           </div>
