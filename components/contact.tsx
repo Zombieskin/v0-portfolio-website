@@ -14,7 +14,7 @@ export function Contact() {
 
         <div className="flex flex-col sm:flex-row gap-6">
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sumeet-haldankar/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-3 px-6 py-4 bg-card border border-border rounded-lg hover:border-accent transition-colors"
@@ -28,7 +28,7 @@ export function Contact() {
           </Link>
 
           <Link
-            href="mailto:alex@example.com"
+            href="mailto:sumeet.haldankar1989@gmail.com"
             className="group flex items-center gap-3 px-6 py-4 bg-card border border-border rounded-lg hover:border-accent transition-colors"
           >
             <Mail className="w-5 h-5 text-foreground" />
@@ -42,7 +42,7 @@ export function Contact() {
 
         <div className="mt-20 pt-8 border-t border-border">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Alex Morrison. All rights reserved.
+            &copy; {new Date().getFullYear()} Sumeet Haldankar. All rights reserved.
           </p>
         </div>
       </div>
