@@ -57,13 +57,13 @@ const caseStudies = {
   },
   "optus-crm-migration": {
     title: "Optus CRM Migration",
-    subtitle: "CRM consolidation for Australia&apos;s second-largest telco",
-    year: "2021",
-    duration: "12 months",
+    subtitle: "CRM consolidation for Australia's second-largest telco",
+    year: "2014 - 2016",
+    duration: "24 months",
     role: "Business Analyst",
     client: "Optus (Singtel)",
     overview:
-      "Defined business requirements for migrating from a legacy CRM to Salesforce, impacting 10M+ customer records and 2,000 contact centre agents across Australia.",
+      "Led migration of 2.5M+ customer records from Siebel Oracle to Salesforce, achieving 35% reduction in billing query resolution time through Salesforce Unified 360 view.",
     challenge:
       "The legacy CRM was 15 years old, causing agent inefficiency, poor customer data quality, and inability to support omnichannel experiences. The migration required zero downtime and preservation of complex business rules.",
     approach: [
@@ -76,10 +76,62 @@ const caseStudies = {
     outcomes: [
       "Reduced average handling time by 25%",
       "Improved first-call resolution by 18%",
-      "Migrated 10M+ records with 99.8% accuracy",
-      "Enabled omnichannel customer view for agents",
+      "Migrated 2.5M+ records with 99.8% accuracy",
+      "35% reduction in billing query resolution time",
     ],
     tools: ["Salesforce", "JIRA", "Confluence", "Lucidchart", "SQL", "Tableau"],
+  },
+  "energy-australia-mdms": {
+    title: "Energy Australia MDMS 2.0",
+    subtitle: "Meter Data Management System uplift for utility billing",
+    year: "2016 - 2021",
+    duration: "5 years",
+    role: "Technical Business Analyst & SME",
+    client: "Energy Australia",
+    overview:
+      "Supported billing platform and meter data management uplift by improving the flow of validated meter data. Strengthened meter data quality and exception handling by defining validation checkpoints.",
+    challenge:
+      "Meter data quality issues caused billing delays and increased manual exception handling. Missing, late, duplicate and inconsistent reads created downstream impacts on customer billing and compliance.",
+    approach: [
+      "Defined validation checkpoints for missing, late, duplicate and inconsistent reads",
+      "Designed exception handling workflows to reduce manual intervention",
+      "Collaborated with billing operations and compliance stakeholders",
+      "Implemented meter data quality metrics and monitoring dashboards",
+      "Created documentation for operational handover and training",
+    ],
+    outcomes: [
+      "Reduced manual exception handling to ~30%",
+      "Improved meter data quality and consistency",
+      "Enhanced billing reliability and accuracy",
+      "Strengthened operational control and monitoring",
+    ],
+    tools: ["SQL", "BPMN", "Confluence", "JIRA", "Excel", "Business Objects"],
+  },
+  "energy-australia-billing": {
+    title: "Energy Australia Billing Platform Upgrade",
+    subtitle: "CIS Plus to C1 billing platform migration",
+    year: "2010 - 2014",
+    duration: "4 years",
+    role: "Technical Business Analyst & SME",
+    client: "Energy Australia",
+    overview:
+      "Worked with technology as subject matter expert, billing operations and compliance stakeholders to identify and resolve billing platform issues during major upgrade and stabilization.",
+    challenge:
+      "Platform upgrade required identifying delayed bill scenarios, customer record issues, smart meter billing information gaps and downstream impacts. Stabilization needed to minimize disruption to customers.",
+    approach: [
+      "Identified delayed bill scenarios and root causes",
+      "Analyzed customer record issues and data quality problems",
+      "Documented smart meter billing information gaps",
+      "Collaborated with compliance stakeholders on regulatory requirements",
+      "Supported platform stabilization and issue resolution",
+    ],
+    outcomes: [
+      "Successful upgrade and stabilization",
+      "Minimal disruption during migration",
+      "Reduction in 90+ days overdue billing by ~54%",
+      "Reduction in 270+ days overdue billing by ~54%",
+    ],
+    tools: ["SQL", "CIS Plus", "C1", "BPMN", "Confluence", "Excel"],
   },
 }
 

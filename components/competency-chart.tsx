@@ -9,12 +9,13 @@ import {
 } from "recharts"
 
 const competencies = [
-  { skill: "Requirements Engineering", value: 95 },
-  { skill: "Stakeholder Management", value: 90 },
-  { skill: "Agile Delivery", value: 88 },
-  { skill: "Payments Domain", value: 92 },
-  { skill: "Regulatory Compliance", value: 85 },
-  { skill: "Process Modelling", value: 90 },
+  { skill: "Requirements Engineering", value: 82 },
+  { skill: "Stakeholder Management", value: 85 },
+  { skill: "Agile Delivery", value: 78 },
+  { skill: "Payments Domain", value: 75 },
+  { skill: "Regulatory Compliance", value: 70 },
+  { skill: "Process Modelling", value: 72 },
+  { skill: "Australian Market", value: 60 },
 ]
 
 export function CompetencyChart() {
