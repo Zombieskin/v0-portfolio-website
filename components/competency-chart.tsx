@@ -17,6 +17,7 @@ const competencies = [
   { skill: "Regulatory Compliance", value: 70 },
   { skill: "Process Modelling", value: 72 },
   { skill: "Australian Market", value: 60 },
+  { skill: "AI as Enabler", value: 40 }
 ]
 
 const tooltips: Record<string, string> = {
@@ -26,7 +27,8 @@ const tooltips: Record<string, string> = {
   "Payments Domain": "Defined API and functional specs for Pix instant payments at Itaú",
   "Regulatory Compliance": "AML and KYC delivery using NICE Actimize at HSBC",
   "Process Modelling": "BPMN 2.0 process mapping across billing, CRM, and payments platforms",
-  "Australian Market": "Based in Melbourne, actively building local network in fintech and banking",
+  "Australian Market": "Based in Melbourne, actively building local network in fintech and banking"
+  "AI Adoption": "Adopting AI as a catalyst to accelerate my productivity at work, leveraging as enabler to constantly stay upto date with today's AI relevance",
 }
 
 export function CompetencyChart() {
