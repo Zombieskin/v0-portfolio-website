@@ -3,18 +3,25 @@ import { ArrowUpRight } from "lucide-react"
 
 const caseStudies = [
   {
-    slug: "itau-superapp-payments",
-    title: "Itau Unibanco - SuperApp: Unified Payments and Deposits | Digital Banking",
-    description: "Led requirements for a unified payments experience serving 50M+ users across Brazil&apos;s largest banking ecosystem. Defined functional specifications and API requirements for Pix Credit -  instant payment platform. Led UAT coordination across 6 product squads during the migration of 8 million customers to Itau unified SuperApp. Outcome : Contributed to a programme delivering 45+ digital banking products in a single year, driving 14% growth in card purchase volume. Orchestrated go-live across 8 markets over 3 years and the transformation delivered approximately $42M in annual operational savings",
-    tags: ["Payments", "Mobile", "Agile"],
-    year: "2021 - 2024",
-  },
-  {
     slug: "siemens-energy-cloud",
     title: "Siemens Energy - On Premm to AWS Cloud Migration | SDLC Toolchain",
     description: "Orchestrated stakeholder alignment for enterprise cloud transformation across 40+ business units globally. Consolidation into a single instance infrastructure from On-Prem to AWS Cloud (GitLab, SonarQube, Artifactory. Migration outcomes include enhanced scalability, cost-effectiveness, and a unified team managing infrastructure concerns. Net savings of €141K result of unification and resource efforts",
     tags: ["Cloud", "Enterprise", "Stakeholder Mgmt"],
     year: "2025 - 2026",
+  },
+  {
+    slug: "Service Now ITSM",
+    title: "Siemens Energy - JIRA to Service Now ITSM Centralisation | JIRA sunset",
+    description: "•	Migration of 12,000 Jira projects to ServiceNow ITSM, covering Incident, Change, Request, Agile, and Strategic Portfolio Management modules. Governed the transformation of 6 million records with a 99.5%+ migration accuracy target and zero critical data loss incidents. Post-migration outcomes including a 47% improvement in SLA compliance (61% to 89%), a 94% reduction in duplicate incidents per month, and 100% cross-team ticket visibility between Development and IT Operations",
+    tags: ["JIRA", "Enterprise", "Service Now"],
+    year: "2025 - 2026",
+  },
+  {
+    slug: "itau-superapp-payments",
+    title: "Itau Unibanco - SuperApp: Unified Payments and Deposits | Digital Banking",
+    description: "Led requirements for a unified payments experience serving 50M+ users across Brazil&apos;s largest banking ecosystem. Defined functional specifications and API requirements for Pix Credit -  instant payment platform. Led UAT coordination across 6 product squads during the migration of 8 million customers to Itau unified SuperApp. Outcome : Contributed to a programme delivering 45+ digital banking products in a single year, driving 14% growth in card purchase volume. Orchestrated go-live across 8 markets over 3 years and the transformation delivered approximately $42M in annual operational savings",
+    tags: ["Payments", "Mobile", "Agile"],
+    year: "2021 - 2024",
   },
   {
     slug: "energy-australia-mdms",
