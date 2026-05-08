@@ -14,7 +14,7 @@ const caseStudies = [
     title: "Siemens Energy - JIRA to Service Now ITSM Centralisation | JIRA sunset",
     description: "•	Migration of 12,000 Jira projects to ServiceNow ITSM, covering Incident, Change, Request, Agile, and Strategic Portfolio Management modules. Governed the transformation of 6 million records with a 99.5%+ migration accuracy target and zero critical data loss incidents. Post-migration outcomes including a 47% improvement in SLA compliance (61% to 89%), a 94% reduction in duplicate incidents per month, and 100% cross-team ticket visibility between Development and IT Operations",
     tags: ["JIRA", "Enterprise", "Service Now"],
-    year: "2025 - 2026",
+    year: "2024 - 2025",
   },
   {
     slug: "itau-superapp-payments",
