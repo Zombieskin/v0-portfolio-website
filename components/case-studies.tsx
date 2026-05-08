@@ -19,16 +19,14 @@ const caseStudies = [
   {
     slug: "Billing Platform Upgrade",
     title: "Energy Australia - Meter Data Management System 2.0 | Utility",
-    description: "Supported billing platform and meter data management uplift by improving the flow of validated meter data.Strengthened meter data quality and exception handling by defining validation checkpoints for missing, late, duplicate and inconsistent reads. Improved billing reliability and operational control by reducing manual exception handling to ~30%",
- ",
+    description: "Supported billing platform and meter data management uplift by improving the flow of validated meter data. Strengthened meter data quality and exception handling by defining validation checkpoints for missing, late, duplicate and inconsistent reads. Improved billing reliability and operational control by reducing manual exception handling to ~30%.",
     tags: ["Platform Upgrade", "Utility", "Enhancement"],
     year: "2016 - 2021",
   },
   {
     slug: "Optus CRM Upgrade",
     title: "Optus - Siebel Oracle to Salesforce CRM Migration | Telecom",
-    description: "•	Led migration of 2.5M+ customer records.•	Achieved 35% reduction in billing query resolution time through Salesforce Unified 360 view",
- ",
+    description: "Led migration of 2.5M+ customer records. Achieved 35% reduction in billing query resolution time through Salesforce Unified 360 view.",
     tags: ["CRM Upgrade", "Telecom", "Enhancement"],
     year: "2014 - 2016",
   },
