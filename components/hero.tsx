@@ -32,7 +32,7 @@ export function Hero() {
 
         <div className="flex items-center gap-4 mt-10">
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sumeet-haldankar/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -41,7 +41,7 @@ export function Hero() {
             <span className="text-sm">LinkedIn</span>
           </Link>
           <Link
-            href="mailto:alex@example.com"
+            href="mailto:sumeet.haldankar1989@gmail.com"
             className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
           >
             <Mail className="w-5 h-5" />
