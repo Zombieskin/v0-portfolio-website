@@ -24,10 +24,10 @@ const caseStudies = [
   {
     slug: "itau-superapp-payments",
     image: "/itau-superapp.png",
-    title: "Itau Unibanco - SuperApp: Unified Payments and Deposits | Digital Banking",
+    title: "Itau Unibanco - SuperApp Unified Payments and Deposits | Digital Banking",
     description:
       "Led requirements for a unified payments experience serving 50M+ users. Defined functional specifications and API requirements for Pix Credit instant payment platform. Contributed to a programme delivering 45+ digital banking products in a single year.",
-    tags: ["Payments", "Mobile", "Agile"],
+    tags: ["Digital Banking", "Payments", "Mobile", "Agile"],
     year: "2021 - 2024",
   },
   {
