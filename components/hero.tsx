@@ -72,7 +72,7 @@ export function Hero() {
       </nav>
 
       {/* Marquee Ticker */}
-      <div className="overflow-hidden mb-8">
+      <div className="overflow-hidden mb-8 bg-white border border-border rounded-full py-2.5 shadow-sm">
         <div className="animate-marquee whitespace-nowrap">
           <span className="inline-block text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
             Currently targeting Senior BA and Product Owner roles in Melbourne
