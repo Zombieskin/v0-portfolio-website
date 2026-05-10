@@ -13,7 +13,7 @@ const caseStudies = [
     year: "2025 - 2026",
   },
   {
-    slug: "Service-Now-ITSM",
+    slug: "service-now-itsm",
     image: "/siemens-servicenow.png",
     title: "Siemens Energy - JIRA to Service Now ITSM Centralisation | JIRA sunset",
     description:
