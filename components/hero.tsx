@@ -53,6 +53,12 @@ const coreCompetencies = [
   },
 ]
 
+const certifications = [
+  { src: "/AWS CCP.png", alt: "AWS Certified Cloud Practitioner" },
+  { src: "/SAFE PoPM.png", alt: "SAFe 6.0 POPM" },
+  { src: "/Azure AI 900.png", alt: "Microsoft Azure AI-900" },
+]
+
 export function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 py-20">
@@ -96,8 +102,8 @@ export function Hero() {
       </div>
 
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-12">
-        {/* Mobile: Centered square photo */}
-        <div className="flex justify-center md:hidden">
+        {/* Mobile: Centered photo */}
+        <div className="flex flex-col items-center gap-4 md:hidden">
           <div className="relative w-48 h-60 overflow-hidden rounded-lg border-2 border-border bg-secondary">
             <Image
               src="/Resume Picture Enhanced.png"
@@ -107,9 +113,26 @@ export function Hero() {
               priority
             />
           </div>
+          {/* Cert badges: mobile, below photo */}
+          <div className="flex flex-wrap justify-center gap-3">
+            {certifications.map((cert) => (
+              <div
+                key={cert.alt}
+                className="relative w-14 h-14 rounded-full overflow-hidden border border-border bg-white shadow-sm"
+                title={cert.alt}
+              >
+                <Image
+                  src={cert.src}
+                  alt={cert.alt}
+                  fill
+                  className="object-contain p-1"
+                />
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Left column: Name, title, tagline, links */}
+        {/* Left column */}
         <div className="flex-1 max-w-2xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-foreground mb-4 text-center md:text-left">
             Sumeet Haldankar
@@ -118,12 +141,20 @@ export function Hero() {
             Senior Business Analyst & Product Owner
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed text-center md:text-left mb-8">
-            Product Owner and Senior Business Analyst with 15 years of technology delivery experience across Utility, Energy, Banking, Payments, Telecommunications and Cloud Transformation. Experienced in facilitating Agile ceremonies, coordinating delivery across cross functional teams.
+            Product Owner and Senior Business Analyst with 15 years of technology delivery
+            experience across Utility, Energy, Banking, Payments, Telecommunications and
+            Cloud Transformation. Experienced in facilitating Agile ceremonies, coordinating
+            delivery across cross functional teams.
 
-            I work closely with senior and executive stakeholders to understand what the business really needs, then turn that into clear functional and non-functional requirements, BPMN process maps, and solutions that hold up across the full SDLC.
-            
-            I bring strong experience in SAFe delivery, PI Planning, backlog governance, stakeholder engagement, cloud migration, DevOps toolchain modernization, cybersecurity controls and regulated technology environments. Known for connecting business priorities with technical execution and helping teams move from ambiguity to clear, practical outcomes.
-.
+            I work closely with senior and executive stakeholders to understand what the
+            business really needs, then turn that into clear functional and non-functional
+            requirements, BPMN process maps, and solutions that hold up across the full SDLC.
+
+            I bring strong experience in SAFe delivery, PI Planning, backlog governance,
+            stakeholder engagement, cloud migration, DevOps toolchain modernization,
+            cybersecurity controls and regulated technology environments. Known for connecting
+            business priorities with technical execution and helping teams move from ambiguity
+            to clear, practical outcomes.
           </p>
 
           <div className="flex items-center justify-center md:justify-start gap-4 mb-10">
@@ -147,10 +178,15 @@ export function Hero() {
 
           {/* Core Competencies */}
           <div className="space-y-4">
-            <h2 className="text-lg font-medium text-foreground text-center md:text-left">Core Competencies</h2>
+            <h2 className="text-lg font-medium text-foreground text-center md:text-left">
+              Core Competencies
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {coreCompetencies.map((item) => (
-                <div key={item.category} className="bg-secondary/50 rounded-lg p-3 border border-border">
+                <div
+                  key={item.category}
+                  className="bg-secondary/50 rounded-lg p-3 border border-border"
+                >
                   <p className="text-sm font-medium text-accent mb-1">{item.category}</p>
                   <p className="text-xs text-muted-foreground leading-relaxed">{item.skills}</p>
                 </div>
@@ -159,8 +195,8 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Desktop: Square photo on the right */}
-        <div className="hidden md:flex md:items-start md:justify-end">
+        {/* Desktop: Photo + cert badges stacked on the right */}
+        <div className="hidden md:flex flex-col items-center gap-4">
           <div className="relative w-56 h-72 lg:w-64 lg:h-80 overflow-hidden rounded-lg border-2 border-border bg-secondary">
             <Image
               src="/Resume Picture Enhanced.png"
@@ -169,6 +205,23 @@ export function Hero() {
               className="object-cover object-top"
               priority
             />
+          </div>
+          {/* Cert badges: desktop, below photo */}
+          <div className="flex flex-wrap justify-center gap-3 max-w-[16rem]">
+            {certifications.map((cert) => (
+              <div
+                key={cert.alt}
+                className="relative w-14 h-14 rounded-full overflow-hidden border border-border bg-white shadow-sm"
+                title={cert.alt}
+              >
+                <Image
+                  src={cert.src}
+                  alt={cert.alt}
+                  fill
+                  className="object-contain p-1"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
