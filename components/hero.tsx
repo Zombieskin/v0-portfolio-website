@@ -118,7 +118,7 @@ export function Hero() {
             {certifications.map((cert) => (
               <div
                 key={cert.alt}
-                className="relative w-14 h-14 rounded-full overflow-hidden border border-border bg-white shadow-sm"
+                className="relative w-20 h-20 rounded-full overflow-hidden border border-border bg-white shadow-sm"
                 title={cert.alt}
               >
                 <Image
