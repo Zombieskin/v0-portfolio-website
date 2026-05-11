@@ -145,11 +145,13 @@ export function Hero() {
             experience across Utility, Energy, Banking, Payments, Telecommunications and
             Cloud Transformation. Experienced in facilitating Agile ceremonies, coordinating
             delivery across cross functional teams.
-
+          </p>
+          <p className="text-lg text-muted-foreground leading-relaxed text-center md:text-left mb-8">
             I work closely with senior and executive stakeholders to understand what the
             business really needs, then turn that into clear functional and non-functional
             requirements, BPMN process maps, and solutions that hold up across the full SDLC.
-
+          </p>
+          <p className="text-lg text-muted-foreground leading-relaxed text-center md:text-left mb-8">
             I bring strong experience in SAFe delivery, PI Planning, backlog governance,
             stakeholder engagement, cloud migration, DevOps toolchain modernization,
             cybersecurity controls and regulated technology environments. Known for connecting
