@@ -3,24 +3,24 @@ import { Building2, Calendar } from "lucide-react"
 const experiences = [
   {
     company: "Siemens Energy",
-    role: "Platform Product Owner",
-    period: "2024 - 2026",
+    role: "Platform Product Owner - Cloud Migration",
+    period: "April 2024 – March 2026",
     description:
-      "Leading platform product ownership for enterprise energy solutions, driving digital transformation initiatives and aligning technical roadmaps with business objectives.",
+      "Led an enterprise-wide cloud migration program, migrating legacy DevOps toolchain (GitLab, SonarQube, Artifactory) from on-premises infrastructure to AWS within a €2.4M portfolio. Facilitated program-level planning aligning 100+ workflows into a unified AWS platform. Delivered €216K in immediate annual cloud savings through consumption analysis, infrastructure monitoring, and auto-scaling implementation. Partnered with solution architects and cybersecurity teams to ensure compliance with ISO 27001, CIA, and RBAC requirements. Led steering committee meetings and drove end-to-end delivery from Discovery to Implementation.",
   },
   {
     company: "Globant",
-    role: "Senior Business Analyst - Digital Banking and Payments",
-    period: "2021 - 2024",
+    role: "Senior Business Analyst – Enterprise Payments and Digital Banking",
+    period: "October 2021 – April 2024",
     description:
-      "Delivered complex digital banking and payments solutions for tier-1 financial institutions, specializing in requirements engineering, stakeholder management, and agile delivery.",
+      "Worked across 6+ concurrent delivery streams within Itaú's SuperApp program in a SAFe environment, eliciting and documenting functional and non-functional requirements across the full SDLC. Translated Pix regulatory requirements and open banking rules into functional API specifications and acceptance criteria. Facilitated PI Planning cycles as Scrum Master, aligning backlog priorities with program objectives and regulatory requirements. Coordinated UAT across 6 product squads, supporting release planning and delivery coordination across 3 phased releases.",
   },
   {
     company: "Concentrix",
-    role: "Technical Business Analyst and Subject Matter Expert",
-    period: "2010 - 2021",
+    role: "Technical Business Analyst – Utility and Digital Banking",
+    period: "July 2010 – September 2021",
     description:
-      "Served as technical SME across billing systems, meter data management, and CRM platforms, driving process improvements and supporting large-scale system migrations.",
+      "Led a billing operations uplift program improving reliability around bill generation, exception handling, and operational controls, reducing manual exceptions by 54%. Led Salesforce CRM migration of 2.5M+ customer records from Siebel Oracle, authoring functional requirements, data mapping, and UAT test plans, delivering a 35% reduction in billing query resolution time post go-live. Supported CIS Plus to C1 billing platform upgrade through billing process analysis, defect triage, and exception tracking across legacy and target-state workflows.",
   },
 ]
 

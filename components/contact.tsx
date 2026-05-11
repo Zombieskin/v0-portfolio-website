@@ -9,7 +9,7 @@ export function Contact() {
           Get in Touch
         </h2>
         <p className="text-muted-foreground mb-10 max-w-xl">
-          Interested in working together? I&apos;m always open to discussing new opportunities.
+          Let&apos;s make something amazing together? I&apos;m always open to discussing new opportunities.	
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6">
