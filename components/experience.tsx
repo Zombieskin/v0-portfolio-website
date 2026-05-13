@@ -3,7 +3,7 @@ import { Building2, Calendar } from "lucide-react"
 const experiences = [
   {
     company: "Siemens Energy",
-    role: "Platform Product Owner - Cloud Migration",
+    role: "Platform Product Owner - Cloud and JIRA Migration",
     period: "April 2024 – March 2026",
     description:
       "Led an enterprise-wide cloud migration program, migrating legacy DevOps toolchain (GitLab, SonarQube, Artifactory) from on-premises infrastructure to AWS within a €2.4M portfolio. Facilitated program-level planning aligning 100+ workflows into a unified AWS platform. Delivered €216K in immediate annual cloud savings through consumption analysis, infrastructure monitoring, and auto-scaling implementation. Partnered with solution architects and cybersecurity teams to ensure compliance with ISO 27001, CIA, and RBAC requirements. Led steering committee meetings and drove end-to-end delivery from Discovery to Implementation.",
